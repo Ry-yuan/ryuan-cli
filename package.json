@@ -1,0 +1,33 @@
+{
+  "name": "ryuan-cli",
+  "version": "1.0.0",
+  "description": "This is a front - end template that can quickly generate front-end projects",
+  "main": "index.js",
+  "bin": {
+    "ryuan-cli": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ry-yuan/ryuan-cli.git"
+  },
+  "keywords": [
+    "ryuan-cli",
+    "front-end-cli",
+    "cli"
+  ],
+  "author": "ryuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ry-yuan/ryuan-cli/issues"
+  },
+  "homepage": "https://github.com/Ry-yuan/ryuan-cli#readme",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "git-clone": "^0.1.0",
+    "shelljs": "^0.8.1",
+    "tracer": "^0.8.12"
+  }
+}
