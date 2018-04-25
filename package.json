@@ -1,6 +1,6 @@
 {
   "name": "ryuan-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a front - end template that can quickly generate front-end projects",
   "main": "index.js",
   "bin": {

@@ -13,11 +13,11 @@ $ npm install -g ryuan-cli
 ### Usage
 
 ``` bash
-$ ryuan-cli  <project-name>
+$ ryuan-cli <tpl> <project-name>
 ```
 
 Example:
 
 ``` bash
-$ ryuan-cli my-project
+$ ryuan-cli gulp my-project
 ```
