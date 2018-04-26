@@ -14,7 +14,6 @@ program
     .action(function(tpl , project) {
         log.info('example：ryuan-cli <tpl> <project-name>')
         if (tpl && project) {
-            // console.log(tpl);
             let pwd = shell.pwd()
             log.info(`The template code is being pulled.Download location:${pwd}/${project}/ ...`)
             clone(`https://github.com/Ry-yuan/${tpl}-workflow`, pwd + `/${project}`, null, function() {
